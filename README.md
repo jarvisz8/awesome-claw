@@ -15,7 +15,9 @@ This list is curated. It aims for signal over volume.
 - [Dashboards & Clients](#dashboards--clients)
 - [Channels & Integrations](#channels--integrations)
 - [Operations](#operations)
-- [Community](#community)
+- [Communities](#communities)
+- [Posts & Threads](#posts--threads)
+- [Showcases](#showcases)
 - [More Lists](#more-lists)
 - [Contributing](#contributing)
 - [License](#license)
@@ -67,9 +69,19 @@ This list is curated. It aims for signal over volume.
 - [LeoYeAI/openclaw-backup](https://github.com/LeoYeAI/openclaw-backup) ![GitHub stars](https://img.shields.io/github/stars/LeoYeAI/openclaw-backup?style=social) - Backup and restore for OpenClaw workspaces, credentials, skills, and history.
 - [LeoYeAI/openclaw-guardian](https://github.com/LeoYeAI/openclaw-guardian) ![GitHub stars](https://img.shields.io/github/stars/LeoYeAI/openclaw-guardian?style=social) - Watchdog and auto-repair layer for OpenClaw Gateway.
 
-## Community
+## Communities
 
-- [OpenClaw Discord](https://discord.com/invite/clawd) - Community discussion, help, and updates.
+- [OpenClaw Discord](https://discord.com/invite/clawd) - Main community server for discussion, support, and ecosystem discovery.
+
+## Posts & Threads
+
+- [OpenClaw Showcase](https://docs.openclaw.ai/start/showcase) - Curated collection of public OpenClaw demos, threads, and real-world examples.
+
+## Showcases
+
+- [PR Review → Telegram Feedback](https://x.com/i/status/2010878524543131691) - Example workflow turning PR review into Telegram feedback.
+- [Tesco Shop Autopilot](https://x.com/i/status/2009724862470689131) - End-to-end shopping flow powered by browser automation.
+- [Wine Cellar Skill in Minutes](https://x.com/i/status/2010916352454791216) - Fast skill-building example for a concrete real-world task.
 
 ## More Lists
 
