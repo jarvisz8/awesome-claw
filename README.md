@@ -62,6 +62,14 @@ Please keep submissions:
 
 If something is stale, low-signal, or too loosely related, it may be left out or removed.
 
+## More Lists
+
+- [AlexAnys/awesome-openclaw-usecases-zh](https://github.com/AlexAnys/awesome-openclaw-usecases-zh) ![GitHub stars](https://img.shields.io/github/stars/AlexAnys/awesome-openclaw-usecases-zh?style=social) - Chinese collection of OpenClaw use cases.
+- [clawdbot-ai/awesome-openclaw-skills-zh](https://github.com/clawdbot-ai/awesome-openclaw-skills-zh) ![GitHub stars](https://img.shields.io/github/stars/clawdbot-ai/awesome-openclaw-skills-zh?style=social) - Chinese OpenClaw skills collection.
+- [cogine-ai/awesome-openclaw-zh](https://github.com/cogine-ai/awesome-openclaw-zh) ![GitHub stars](https://img.shields.io/github/stars/cogine-ai/awesome-openclaw-zh?style=social) - Chinese OpenClaw practical resource list.
+- [EvoLinkAI/awesome-openclaw-usecases-moltbook](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook) ![GitHub stars](https://img.shields.io/github/stars/EvoLinkAI/awesome-openclaw-usecases-moltbook?style=social) - Community use case collection from Moltbook.
+- [machinae/awesome-claws](https://github.com/machinae/awesome-claws) ![GitHub stars](https://img.shields.io/github/stars/machinae/awesome-claws?style=social) - Awesome AI agents inspired by OpenClaw.
+
 ## License
 
 [MIT](LICENSE)
