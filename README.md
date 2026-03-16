@@ -17,13 +17,13 @@ OpenClaw is growing fast. The best projects are scattered across GitHub, X, and 
 - [Official Resources](#official-resources)
 - [Skills](#skills)
 - [Deployment & Hosting](#deployment--hosting)
-- [Memory](#memory)
-- [Dashboards & Clients](#dashboards--clients)
+- [Memory & Context](#memory--context)
+- [Clients, Dashboards & Control](#clients-dashboards--control)
 - [Channels & Integrations](#channels--integrations)
-- [Operations](#operations)
+- [Reliability & Maintenance](#reliability--maintenance)
 - [Communities](#communities)
-- [Posts & Threads](#posts--threads)
-- [Showcases](#showcases)
+- [Posts, Threads & Articles](#posts-threads--articles)
+- [Showcases & Demos](#showcases--demos)
 - [More Lists](#more-lists)
 - [Contributing](#contributing)
 - [License](#license)
@@ -58,6 +58,8 @@ _Newest additions to this list._
 
 ## Official Resources
 
+Core official references for OpenClaw.
+
 - [ClawHub](https://clawhub.com) - Directory for discovering and sharing OpenClaw skills.
 - [OpenClaw Docs](https://docs.openclaw.ai) - Official documentation for installation, configuration, channels, memory, skills, and automation.
 - [OpenClaw GitHub](https://github.com/openclaw/openclaw) - Main OpenClaw repository.
@@ -80,18 +82,18 @@ _Ways to run OpenClaw reliably, from one-click to hardened server setups._
 - [miaoxworld/OpenClawInstaller](https://github.com/miaoxworld/OpenClawInstaller) ![GitHub stars](https://img.shields.io/github/stars/miaoxworld/OpenClawInstaller?style=social) - Popular one-click installer for OpenClaw.
 - [openclaw/openclaw-ansible](https://github.com/openclaw/openclaw-ansible) ![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw-ansible?style=social) - Hardened automated installation with Tailscale, UFW, and Docker isolation.
 
-## Memory
+## Memory & Context
 
-_Plugins and systems for better long-term recall in OpenClaw agents._
+_Plugins and systems for better long-term recall and context in OpenClaw agents._
 
 - [CortexReach/memory-lancedb-pro](https://github.com/CortexReach/memory-lancedb-pro) ![GitHub stars](https://img.shields.io/github/stars/CortexReach/memory-lancedb-pro?style=social) - Enhanced LanceDB memory plugin for OpenClaw with hybrid retrieval and reranking.
 - [MemTensor/MemOS](https://github.com/MemTensor/MemOS) ![GitHub stars](https://img.shields.io/github/stars/MemTensor/MemOS?style=social) - Memory OS for agent systems including OpenClaw.
 - [MemTensor/MemOS-Cloud-OpenClaw-Plugin](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin) ![GitHub stars](https://img.shields.io/github/stars/MemTensor/MemOS-Cloud-OpenClaw-Plugin?style=social) - Official MemOS Cloud plugin for OpenClaw.
 - [oceanbase/powermem](https://github.com/oceanbase/powermem) ![GitHub stars](https://img.shields.io/github/stars/oceanbase/powermem?style=social) - Long-term memory system with support for OpenClaw plugins.
 
-## Dashboards & Clients
+## Clients, Dashboards & Control
 
-_Interfaces beyond the terminal — web, desktop, and orchestration views._
+_Interfaces for using, monitoring, and managing OpenClaw._
 
 - [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) ![GitHub stars](https://img.shields.io/github/stars/builderz-labs/mission-control?style=social) - Open-source dashboard for orchestration and monitoring.
 - [crshdn/mission-control](https://github.com/crshdn/mission-control) ![GitHub stars](https://img.shields.io/github/stars/crshdn/mission-control?style=social) - Dashboard for managing agents via OpenClaw Gateway.
@@ -108,22 +110,26 @@ _Connect OpenClaw to messaging platforms and external services._
 - [freestylefly/openclaw-wechat](https://github.com/freestylefly/openclaw-wechat) ![GitHub stars](https://img.shields.io/github/stars/freestylefly/openclaw-wechat?style=social) - WeChat integration for OpenClaw.
 - [soimy/openclaw-channel-dingtalk](https://github.com/soimy/openclaw-channel-dingtalk) ![GitHub stars](https://img.shields.io/github/stars/soimy/openclaw-channel-dingtalk?style=social) - DingTalk channel plugin for OpenClaw.
 
-## Operations
+## Reliability & Maintenance
 
-_Tools for keeping OpenClaw running reliably in production._
+_Tools for backup, monitoring, recovery, and keeping OpenClaw healthy over time._
 
 - [LeoYeAI/openclaw-backup](https://github.com/LeoYeAI/openclaw-backup) ![GitHub stars](https://img.shields.io/github/stars/LeoYeAI/openclaw-backup?style=social) - Backup and restore for OpenClaw workspaces, credentials, skills, and history.
 - [LeoYeAI/openclaw-guardian](https://github.com/LeoYeAI/openclaw-guardian) ![GitHub stars](https://img.shields.io/github/stars/LeoYeAI/openclaw-guardian?style=social) - Watchdog and auto-repair layer for OpenClaw Gateway.
 
 ## Communities
 
+_Places where the OpenClaw ecosystem gathers._
+
 - [OpenClaw Discord](https://discord.com/invite/clawd) - Main community server for discussion, support, and ecosystem discovery.
 
-## Posts & Threads
+## Posts, Threads & Articles
+
+_Written and social resources worth reading._
 
 - [OpenClaw Showcase](https://docs.openclaw.ai/start/showcase) - Curated collection of public OpenClaw demos, threads, and real-world examples.
 
-## Showcases
+## Showcases & Demos
 
 _Real workflows built with OpenClaw._
 
@@ -161,6 +167,8 @@ To be included, a resource should be:
 - concise: a short, honest description of what it actually does
 
 Place it in the most relevant section. If something is stale, low-signal, or too loosely related, it may be left out or removed. The goal is a list worth trusting, not a list worth counting.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for submission guidance and the resource readiness checklist.
 
 ## License
 

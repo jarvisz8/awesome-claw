@@ -1,0 +1,80 @@
+name: Resource addition
+description: Suggest a resource to add to awesome-claw
+title: "[Resource]: "
+labels:
+  - addition
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: builderz-labs/mission-control
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      placeholder: https://github.com/builderz-labs/mission-control
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Suggested category
+      options:
+        - Official Resources
+        - Skills
+        - Deployment & Hosting
+        - Memory & Context
+        - Clients, Dashboards & Control
+        - Channels & Integrations
+        - Reliability & Maintenance
+        - Communities
+        - Posts, Threads & Articles
+        - Showcases & Demos
+        - More Lists
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: One honest sentence about what the resource does.
+      placeholder: Open-source dashboard for orchestration and agent monitoring.
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be included?
+      description: Explain why this is specifically useful for the OpenClaw ecosystem.
+      placeholder: It gives OpenClaw users a practical orchestration dashboard and is already useful to real operators.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: Resource readiness check
+      options:
+        - label: This resource is specifically relevant to OpenClaw.
+          required: true
+        - label: It is publicly accessible.
+          required: true
+        - label: It is not an obvious duplicate of an existing entry.
+          required: true
+        - label: The description above is concise and non-promotional.
+          required: true
+        - label: It is maintained, or historically meaningful enough to justify inclusion.
+          required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Extra context (optional)
+      description: Screenshots, usage notes, comparisons, launch context, etc.

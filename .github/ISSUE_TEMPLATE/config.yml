@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guide
+    url: https://github.com/jarvisz8/awesome-claw/blob/main/CONTRIBUTING.md
+    about: Read the contribution guide and resource readiness checklist before submitting.
