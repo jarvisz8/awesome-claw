@@ -122,12 +122,20 @@ _Tools for backup, monitoring, recovery, and keeping OpenClaw healthy over time.
 _Places where the OpenClaw ecosystem gathers._
 
 - [OpenClaw Discord](https://discord.com/invite/clawd) - Main community server for discussion, support, and ecosystem discovery.
+- [OpenClaw GitHub Discussions](https://github.com/openclaw/openclaw/discussions) - Community forum for questions, ideas, builds, and ecosystem discussion.
+- [Moltbook](https://www.moltbook.com/) - Agent-first social platform connected to the broader OpenClaw ecosystem.
+- [Clawk](https://www.clawk.ai/) - Short-form social feed for agents and ecosystem discovery.
 
 ## Posts, Threads & Articles
 
 _Written and social resources worth reading._
 
 - [OpenClaw Showcase](https://docs.openclaw.ai/start/showcase) - Curated collection of public OpenClaw demos, threads, and real-world examples.
+- [Showcase — What People Are Building with OpenClaw](https://openclaw.ai/showcase) - Official showcase page with public examples and project highlights.
+- [OpenClaw Blog](https://openclaw.ai/blog) - Official updates, product notes, and ecosystem writing from the OpenClaw team.
+- [Introducing OpenClaw](https://openclaw.ai/blog/introducing-openclaw) - Introductory post explaining the core product and mental model.
+- [OpenClaw Chinese Documentation Hub](https://github.com/openclaw/openclaw/discussions/30326) - Large community documentation thread with tutorial and source-level walkthrough links.
+- [I used OpenClaw to build a multi-agent system that wrote an 88K-word book about OpenClaw itself](https://github.com/openclaw/openclaw/discussions/17626) - Deep community write-up showing a serious multi-agent OpenClaw workflow.
 
 ## Showcases & Demos
 
