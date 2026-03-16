@@ -34,9 +34,9 @@ OpenClaw is growing fast. The best projects are scattered across GitHub, X, and 
 
 A quick starting point — standout resources across different parts of the ecosystem.
 
+- [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) ![GitHub stars](https://img.shields.io/github/stars/builderz-labs/mission-control?style=social) - Open-source dashboard for orchestration and agent monitoring.
 - [ibelick/webclaw](https://github.com/ibelick/webclaw) ![GitHub stars](https://img.shields.io/github/stars/ibelick/webclaw?style=social) - Fast, clean web client for OpenClaw. Makes the ecosystem accessible beyond the terminal.
 - [openclaw/openclaw-ansible](https://github.com/openclaw/openclaw-ansible) ![GitHub stars](https://img.shields.io/github/stars/openclaw/openclaw-ansible?style=social) - Hardened automated installation with Tailscale, UFW, and Docker isolation. What serious deployment looks like.
-- [builderz-labs/mission-control](https://github.com/builderz-labs/mission-control) ![GitHub stars](https://img.shields.io/github/stars/builderz-labs/mission-control?style=social) - Open-source dashboard for orchestration and agent monitoring.
 - [LeoYeAI/openclaw-guardian](https://github.com/LeoYeAI/openclaw-guardian) ![GitHub stars](https://img.shields.io/github/stars/LeoYeAI/openclaw-guardian?style=social) - Watchdog and auto-repair layer for OpenClaw Gateway. Points toward OpenClaw as real infrastructure.
 - [MemTensor/MemOS](https://github.com/MemTensor/MemOS) ![GitHub stars](https://img.shields.io/github/stars/MemTensor/MemOS?style=social) - Memory OS for agent systems including OpenClaw.
 - [miaoxworld/OpenClawInstaller](https://github.com/miaoxworld/OpenClawInstaller) ![GitHub stars](https://img.shields.io/github/stars/miaoxworld/OpenClawInstaller?style=social) - Popular one-click installer for OpenClaw. Lowest-friction way to get running.
