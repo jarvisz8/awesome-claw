@@ -8,23 +8,26 @@ permissions:
   issues: write
 
 jobs:
-  label-resource-issues:
+  label-and-acknowledge-resource-issues:
     runs-on: ubuntu-latest
     steps:
-      - name: Label likely resource submissions
+      - name: Label likely resource submissions and acknowledge intake
         uses: actions/github-script@v7
         with:
           script: |
             const issue = context.payload.issue;
             const owner = context.repo.owner;
             const repo = context.repo.repo;
+            const action = context.payload.action;
 
-            const title = (issue.title || '').toLowerCase();
-            const body = (issue.body || '').toLowerCase();
+            const title = issue.title || '';
+            const body = issue.body || '';
+            const titleLower = title.toLowerCase();
+            const bodyLower = body.toLowerCase();
             const labels = (issue.labels || []).map(l => l.name);
 
-            const hasUrl = /(https?:\/\/\S+)|(github\.com\/\S+)/i.test(issue.body || '') || /(https?:\/\/\S+)|(github\.com\/\S+)/i.test(issue.title || '');
-            const looksLikeResource = title.includes('[resource]') || title.includes('resource') || title.includes('add') || title.includes('suggest') || hasUrl;
+            const hasUrl = /(https?:\/\/\S+)|(github\.com\/\S+)/i.test(title) || /(https?:\/\/\S+)|(github\.com\/\S+)/i.test(body);
+            const looksLikeResource = titleLower.includes('[resource]') || titleLower.includes('resource') || titleLower.includes('add') || titleLower.includes('suggest') || hasUrl;
 
             const wanted = [];
             if (looksLikeResource && !labels.includes('addition')) wanted.push('addition');
@@ -37,4 +40,33 @@ jobs:
                 issue_number: issue.number,
                 labels: wanted,
               });
+            }
+
+            if (action === 'opened' && looksLikeResource) {
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner,
+                repo,
+                issue_number: issue.number,
+                per_page: 100,
+              });
+
+              const alreadyCommented = comments.some(comment =>
+                comment.user?.type === 'Bot' &&
+                (comment.body || '').includes('Thanks — link received.')
+              );
+
+              if (!alreadyCommented) {
+                await github.rest.issues.createComment({
+                  owner,
+                  repo,
+                  issue_number: issue.number,
+                  body: [
+                    'Thanks — link received.',
+                    '',
+                    'This repo uses low-friction intake on purpose.',
+                    'No need to pre-format the entry or figure out the exact category.',
+                    'We\'ll review it and handle wording/taxonomy during triage.',
+                  ].join('\n'),
+                });
+              }
             }
