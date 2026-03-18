@@ -18,7 +18,7 @@ Resources that are specifically useful for the OpenClaw ecosystem, such as:
 
 ## Categories
 
-When suggesting a resource, place it in the most relevant section:
+When suggesting a resource, place it in the most relevant section if you know it:
 
 - **Official Resources** — official docs, sites, and repositories
 - **Skills** — skill collections, registries, and skill tooling
@@ -32,25 +32,11 @@ When suggesting a resource, place it in the most relevant section:
 - **Showcases & Demos** — concrete examples of OpenClaw in action
 - **More Lists** — other curated collections related to OpenClaw
 
-## Resource readiness checklist
-
-Before opening an issue or PR, make sure the resource is:
-
-- specifically relevant to OpenClaw
-- genuinely useful and distinct
-- publicly accessible
-- described honestly and concisely
-- placed in the most relevant category
-- not an obvious duplicate of an existing entry
-- not mostly promotional or SEO-oriented
-- maintained, or historically meaningful enough to justify inclusion
-
 ## Submission guidelines
 
 - Add items that are genuinely useful, not just tangentially related.
-- Include a short description explaining why the item matters.
-- Put the item in the most relevant section.
-- Keep entries concise and easy to scan.
+- Include a short note explaining why the item matters.
+- If you know the best category, include it. If not, that's fine.
 - Prefer stable, publicly accessible links.
 - If the resource is early or rough, explain why it is still worth including.
 
@@ -67,9 +53,12 @@ Items may be rejected or removed if they are:
 
 ## Easiest way to contribute
 
-Use the GitHub issue template for resource suggestions. It asks for:
-- the resource name and link
-- the recommended category
-- a short description
-- why it belongs
-- a quick readiness check
+Use the GitHub issue template for resource suggestions.
+
+It now only asks for:
+- the resource URL
+- a short note on why it belongs
+- optional category
+- optional extra context
+
+Keep it simple. We can sort out the formatting/details during review.

@@ -4,13 +4,13 @@ title: "[Resource]: "
 labels:
   - addition
 body:
-  - type: input
-    id: name
+  - type: markdown
     attributes:
-      label: Resource name
-      placeholder: builderz-labs/mission-control
-    validations:
-      required: true
+      value: |
+        Thanks — keep this lightweight.
+
+        Just share the resource and a short note on why it belongs.
+        We can figure out the exact section/editing details later.
 
   - type: input
     id: url
@@ -20,61 +20,24 @@ body:
     validations:
       required: true
 
-  - type: dropdown
-    id: category
-    attributes:
-      label: Suggested category
-      options:
-        - Official Resources
-        - Skills
-        - Deployment & Hosting
-        - Memory & Context
-        - Clients, Dashboards & Control
-        - Channels & Integrations
-        - Reliability & Maintenance
-        - Communities
-        - Posts, Threads & Articles
-        - Showcases & Demos
-        - More Lists
-    validations:
-      required: true
-
-  - type: textarea
-    id: description
-    attributes:
-      label: Short description
-      description: One honest sentence about what the resource does.
-      placeholder: Open-source dashboard for orchestration and agent monitoring.
-    validations:
-      required: true
-
   - type: textarea
     id: why
     attributes:
       label: Why should it be included?
-      description: Explain why this is specifically useful for the OpenClaw ecosystem.
-      placeholder: It gives OpenClaw users a practical orchestration dashboard and is already useful to real operators.
+      description: One or two honest sentences is enough.
+      placeholder: Useful OpenClaw orchestration/monitoring dashboard. Feels relevant for real operators, not just a demo.
     validations:
       required: true
 
-  - type: checkboxes
-    id: readiness
+  - type: input
+    id: category
     attributes:
-      label: Resource readiness check
-      options:
-        - label: This resource is specifically relevant to OpenClaw.
-          required: true
-        - label: It is publicly accessible.
-          required: true
-        - label: It is not an obvious duplicate of an existing entry.
-          required: true
-        - label: The description above is concise and non-promotional.
-          required: true
-        - label: It is maintained, or historically meaningful enough to justify inclusion.
-          required: true
+      label: Suggested category (optional)
+      description: If you're not sure, leave it blank.
+      placeholder: Clients, Dashboards & Control
 
   - type: textarea
     id: extra
     attributes:
       label: Extra context (optional)
-      description: Screenshots, usage notes, comparisons, launch context, etc.
+      description: Anything else useful — screenshot, usage note, comparison, launch post, etc.
