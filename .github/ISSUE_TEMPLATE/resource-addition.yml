@@ -7,10 +7,10 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks — keep this lightweight.
+        Keep it simple.
 
-        Just share the resource and a short note on why it belongs.
-        We can figure out the exact section/editing details later.
+        Just drop the link.
+        We can sort out the description, category, and wording during review.
 
   - type: input
     id: url
@@ -19,25 +19,3 @@ body:
       placeholder: https://github.com/builderz-labs/mission-control
     validations:
       required: true
-
-  - type: textarea
-    id: why
-    attributes:
-      label: Why should it be included?
-      description: One or two honest sentences is enough.
-      placeholder: Useful OpenClaw orchestration/monitoring dashboard. Feels relevant for real operators, not just a demo.
-    validations:
-      required: true
-
-  - type: input
-    id: category
-    attributes:
-      label: Suggested category (optional)
-      description: If you're not sure, leave it blank.
-      placeholder: Clients, Dashboards & Control
-
-  - type: textarea
-    id: extra
-    attributes:
-      label: Extra context (optional)
-      description: Anything else useful — screenshot, usage note, comparison, launch post, etc.

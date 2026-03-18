@@ -1,0 +1,40 @@
+name: Issue intake
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  issues: write
+
+jobs:
+  label-resource-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label likely resource submissions
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const title = (issue.title || '').toLowerCase();
+            const body = (issue.body || '').toLowerCase();
+            const labels = (issue.labels || []).map(l => l.name);
+
+            const hasUrl = /(https?:\/\/\S+)|(github\.com\/\S+)/i.test(issue.body || '') || /(https?:\/\/\S+)|(github\.com\/\S+)/i.test(issue.title || '');
+            const looksLikeResource = title.includes('[resource]') || title.includes('resource') || title.includes('add') || title.includes('suggest') || hasUrl;
+
+            const wanted = [];
+            if (looksLikeResource && !labels.includes('addition')) wanted.push('addition');
+            if (!labels.includes('triage')) wanted.push('triage');
+
+            if (wanted.length) {
+              await github.rest.issues.addLabels({
+                owner,
+                repo,
+                issue_number: issue.number,
+                labels: wanted,
+              });
+            }
