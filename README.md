@@ -52,7 +52,7 @@ _Newest additions to this list._
 - [MemTensor/MemOS-Cloud-OpenClaw-Plugin](https://github.com/MemTensor/MemOS-Cloud-OpenClaw-Plugin) ![GitHub stars](https://img.shields.io/github/stars/MemTensor/MemOS-Cloud-OpenClaw-Plugin?style=social) - Official MemOS Cloud plugin for OpenClaw.
 - [ValueCell-ai/ClawX](https://github.com/ValueCell-ai/ClawX) ![GitHub stars](https://img.shields.io/github/stars/ValueCell-ai/ClawX?style=social) - Desktop UI for OpenClaw agents.
 - [BytePioneer-AI/openclaw-china](https://github.com/BytePioneer-AI/openclaw-china) ![GitHub stars](https://img.shields.io/github/stars/BytePioneer-AI/openclaw-china?style=social) - China-focused integrations for Feishu, DingTalk, QQ, WeCom, and WeChat.
-- [EvoLinkAI/awesome-openclaw-usecases-moltbook](https://github.com/EvoLinkAI/awesome-openclaw-usecases-moltbook) ![GitHub stars](https://img.shields.io/github/stars/EvoLinkAI/awesome-openclaw-usecases-moltbook?style=social) - Community use case collection from Moltbook.
+- [adolfousier/agentverse](https://github.com/adolfousier/agentverse) ![GitHub stars](https://img.shields.io/github/stars/adolfousier/agentverse?style=social) - Multi-agent coordination over HTTP for any language. Built in Rust.
 
 ---
 
@@ -109,6 +109,7 @@ _Connect OpenClaw to messaging platforms and external services._
 - [BytePioneer-AI/openclaw-china](https://github.com/BytePioneer-AI/openclaw-china) ![GitHub stars](https://img.shields.io/github/stars/BytePioneer-AI/openclaw-china?style=social) - China-focused integrations for Feishu, DingTalk, QQ, WeCom, and WeChat.
 - [freestylefly/openclaw-wechat](https://github.com/freestylefly/openclaw-wechat) ![GitHub stars](https://img.shields.io/github/stars/freestylefly/openclaw-wechat?style=social) - WeChat integration for OpenClaw.
 - [soimy/openclaw-channel-dingtalk](https://github.com/soimy/openclaw-channel-dingtalk) ![GitHub stars](https://img.shields.io/github/stars/soimy/openclaw-channel-dingtalk?style=social) - DingTalk channel plugin for OpenClaw.
+- [adolfousier/agentverse](https://github.com/adolfousier/agentverse) ![GitHub stars](https://img.shields.io/github/stars/adolfousier/agentverse?style=social) - Multi-agent coordination over HTTP. Agents in any language connect, exchange messages, and coordinate work. Built in Rust with TUI and 3D GUI.
 
 ## Reliability & Maintenance
 
