@@ -40,6 +40,7 @@ A quick starting point — standout resources across different parts of the ecos
 - [LeoYeAI/openclaw-guardian](https://github.com/LeoYeAI/openclaw-guardian) ![GitHub stars](https://img.shields.io/github/stars/LeoYeAI/openclaw-guardian?style=social) - Watchdog and auto-repair layer for OpenClaw Gateway. Points toward OpenClaw as real infrastructure.
 - [MemTensor/MemOS](https://github.com/MemTensor/MemOS) ![GitHub stars](https://img.shields.io/github/stars/MemTensor/MemOS?style=social) - Memory OS for agent systems including OpenClaw.
 - [miaoxworld/OpenClawInstaller](https://github.com/miaoxworld/OpenClawInstaller) ![GitHub stars](https://img.shields.io/github/stars/miaoxworld/OpenClawInstaller?style=social) - Popular one-click installer for OpenClaw. Lowest-friction way to get running.
+- [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) ![GitHub stars](https://img.shields.io/github/stars/HKUDS/ClawTeam?style=social) - Agent swarm intelligence framework. One command triggers full multi-agent automation and orchestration.
 - [ClawHub](https://clawhub.com) - Official directory for discovering and sharing OpenClaw skills.
 
 ---
@@ -53,6 +54,7 @@ _Newest additions to this list._
 - [ValueCell-ai/ClawX](https://github.com/ValueCell-ai/ClawX) ![GitHub stars](https://img.shields.io/github/stars/ValueCell-ai/ClawX?style=social) - Desktop UI for OpenClaw agents.
 - [BytePioneer-AI/openclaw-china](https://github.com/BytePioneer-AI/openclaw-china) ![GitHub stars](https://img.shields.io/github/stars/BytePioneer-AI/openclaw-china?style=social) - China-focused integrations for Feishu, DingTalk, QQ, WeCom, and WeChat.
 - [adolfousier/agentverse](https://github.com/adolfousier/agentverse) ![GitHub stars](https://img.shields.io/github/stars/adolfousier/agentverse?style=social) - Multi-agent coordination over HTTP for any language. Built in Rust.
+- [HKUDS/ClawTeam](https://github.com/HKUDS/ClawTeam) ![GitHub stars](https://img.shields.io/github/stars/HKUDS/ClawTeam?style=social) - Agent swarm intelligence — one command, full multi-agent automation.
 
 ---
 
